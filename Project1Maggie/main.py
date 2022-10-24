@@ -19,19 +19,19 @@ listaHomer = []
 while True:
     ## obtener datos de la API, guardar todos en un archivo .json y convertirlos en dict
   response_API = requests.get('https://thesimpsonsquoteapi.glitch.me/quotes')
-  data = response_API.json()
-  dataJSON = {"personaje": data[0]["character"], "Frase": data[0]["quote"]}
+  dataJSON = response_API.json()
+  datos = {"personaje": dataJSON[0]["character"], "Frase": dataJSON[0]["quote"]}
     ## guardar los datos en 3 archivos .csv diferentes
-  if dataJSON["personaje"] == "Lisa Simpson":
-    listaLisa.append(dataJSON)
+  if datos["personaje"] == "Lisa Simpson":
+    listaLisa.append(datos)
     fileL = open("Lisa/lisa.csv", "w", newline='')
     convert(listaLisa, fileL)
-  elif dataJSON["personaje"] == "Homer Simpson": 
-    listaHomer.append(dataJSON)
+  elif datos["personaje"] == "Homer Simpson": 
+    listaHomer.append(datos)
     fileH = open("Homer/homer.csv", "w", newline='')
     convert(listaHomer, fileH)
   else:
-    listaGen.append(dataJSON)
+    listaGen.append(datos)
     fileG = open("General/general.csv", "w", newline='')
     convert(listaGen, fileG)
     ## esperar 30 segundos para seguir ejecutando el bucle while

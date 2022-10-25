@@ -7,4 +7,4 @@ palabras más habituales en las quotes
 
 pasos:
 1. crear jupyter que lea csv de python (de cuenta palabras; copiar codigo de lisa al nuevo) y me haga un grafico con las palabras (cada vez cuando pulso al play)
-2. 
+2. plotear imagen personaje y nombre carpeta

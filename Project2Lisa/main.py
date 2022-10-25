@@ -45,7 +45,7 @@ while True:
         w.writerow(datos)
 ## Lisa: Crear y añadir palabras al diccionario
     word_count(datos["Frase"], counts)
-    with open("cuentas.csv", "w", newline='') as csvfile:
+    with open("app/cuentas.csv", "w", newline='') as csvfile:
         header_key = ["Palabra", "Cuenta"]
         new_val = csv.DictWriter(csvfile, fieldnames=header_key)
         new_val.writeheader()

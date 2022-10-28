@@ -43,4 +43,4 @@ while True:
         for newK in counts:
             newVal.writerow({"Palabra": newK, "Cuenta": counts[newK]})
 ## Esperar 30 segundos para seguir ejecutando el bucle while
-    time.sleep(1)
+    time.sleep(30)

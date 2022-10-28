@@ -1,6 +1,6 @@
 # PROJECT 2: LISA LEVEL
 
-![Lisa Simpson](https://cdn.pixabay.com/photo/2016/12/20/21/30/toy-1921523_960_720.jpg)
+![Lisa Simpson](https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Lisa_Simpson.png/220px-Lisa_Simpson.png)
 
 1. Mejorad el código para descargar la imagen del personaje y guardadla en la carpeta del
 mismo. 

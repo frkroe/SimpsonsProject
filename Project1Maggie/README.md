@@ -1,6 +1,6 @@
 # PROJECT 1: MAGGIE LEVEL
 
-![Maggie Simpson](https://cdn.pixabay.com/photo/2017/01/24/23/58/simpsons-2006742_960_720.jpg)
+![Maggie Simpson](https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Maggie_Simpson.png/220px-Maggie_Simpson.png)
 
 1. Usando google colab crear un notebook que consuma la api de los simpsons y haga una
 consulta cada 30seg a la API

@@ -1,6 +1,6 @@
 # PROJECT 3: BART LEVEL
 
-![Bart Simpson](https://cdn.pixabay.com/photo/2015/03/01/21/44/bart-655318_960_720.png)
+![Bart Simpson](https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Bart_Simpson_200px.png/170px-Bart_Simpson_200px.png)
 
 1. Construid un Docker-compose con una imagen de un contenedor de Jupyter
 2. Dentro del Jupyter generad un notebook con una gráfica mostrando las
